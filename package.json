@@ -1,0 +1,24 @@
+{
+  "name": "hn-wc",
+  "version": "1.0.0",
+  "description": "An experiment in writing an HN client with web components in 2 hours",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs -- --watch",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vanilla-extract/esbuild-plugin": "^2.3.5",
+    "esbuild": "0.20.0",
+    "eslint": "8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.14.1"
+  }
+}

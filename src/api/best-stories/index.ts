@@ -1,0 +1,1 @@
+export { fetchBestStories } from './fetchBestStories'

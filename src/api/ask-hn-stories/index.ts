@@ -1,0 +1,1 @@
+export { fetchAskHnStories } from './fetchAskHnStories'
